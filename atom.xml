@@ -67,25 +67,6 @@
   </entry>
   
   <entry>
-    <title>gradlew</title>
-    <link href="http://www.subowen.top/2017/12/15/gradlew/"/>
-    <id>http://www.subowen.top/2017/12/15/gradlew/</id>
-    <published>2017-12-15T04:38:38.518Z</published>
-    <updated>2017-12-15T06:38:10.390Z</updated>
-    
-    <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p><p>./gradlew build 检查依赖并编译打包</p><a id="more"></a><p>./gradlew assembleDebug 编译并打Debug包</p><p>./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似</p><p>./gradlew assembleRelease 编译并打Release的包</p><p>./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似</p><p>./gradlew installRelease Release模式打包并安装</p><p>./gradlew uninstallRelease 卸载Release模式包</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;./gradlew clean 删除HelloWord/app目录下的build文件夹&lt;/p&gt;
-&lt;p&gt;./gradlew build 检查依赖并编译打包&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>SimpleDateFormat问题</title>
     <link href="http://www.subowen.top/2017/12/15/SimpleDateFormat%E9%97%AE%E9%A2%98/"/>
     <id>http://www.subowen.top/2017/12/15/SimpleDateFormat问题/</id>
@@ -105,16 +86,17 @@
   
   <entry>
     <title>gradlew</title>
-    <link href="http://www.subowen.top/2017/12/15/bugly/"/>
-    <id>http://www.subowen.top/2017/12/15/bugly/</id>
-    <published>2017-12-15T04:38:38.502Z</published>
-    <updated>2017-12-15T06:37:48.804Z</updated>
+    <link href="http://www.subowen.top/2017/12/15/gradlew/"/>
+    <id>http://www.subowen.top/2017/12/15/gradlew/</id>
+    <published>2017-12-15T04:38:38.518Z</published>
+    <updated>2017-12-15T06:38:10.390Z</updated>
     
-    <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p><a id="more"></a><p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p><p>./gradlew build 检查依赖并编译打包</p><a id="more"></a><p>./gradlew assembleDebug 编译并打Debug包</p><p>./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似</p><p>./gradlew assembleRelease 编译并打Release的包</p><p>./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似</p><p>./gradlew installRelease Release模式打包并安装</p><p>./gradlew uninstallRelease 卸载Release模式包</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;gradlew assembleRelease//全量打包&lt;br&gt;gradlew buildTinkerPatchRelease//增量打包&lt;/p&gt;
+      &lt;p&gt;./gradlew clean 删除HelloWord/app目录下的build文件夹&lt;/p&gt;
+&lt;p&gt;./gradlew build 检查依赖并编译打包&lt;/p&gt;
     
     </summary>
     
@@ -133,6 +115,24 @@
     <summary type="html">
     
       &lt;p&gt;用layer_list实现按钮阴影背景&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>gradlew</title>
+    <link href="http://www.subowen.top/2017/12/15/bugly/"/>
+    <id>http://www.subowen.top/2017/12/15/bugly/</id>
+    <published>2017-12-15T04:38:38.502Z</published>
+    <updated>2017-12-15T06:37:48.804Z</updated>
+    
+    <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p><a id="more"></a><p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;gradlew assembleRelease//全量打包&lt;br&gt;gradlew buildTinkerPatchRelease//增量打包&lt;/p&gt;
     
     </summary>
     
