@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="用layer_list实现按钮阴影背景version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        and">
+<meta name="description" content="用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        an">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Su">
+<meta property="og:title" content="用layer_list实现按钮阴影背景">
 <meta property="og:url" content="http://www.subowen.top/2017/12/15/Android-样式_layer_list/index.html">
 <meta property="og:site_name" content="Su">
-<meta property="og:description" content="用layer_list实现按钮阴影背景version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        and">
+<meta property="og:description" content="用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        an">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-15T03:57:23.000Z">
+<meta property="og:updated_time" content="2017-12-15T04:52:12.503Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Su">
-<meta name="twitter:description" content="用layer_list实现按钮阴影背景version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        and">
+<meta name="twitter:title" content="用layer_list实现按钮阴影背景">
+<meta name="twitter:description" content="用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&amp;lt;layer-list xmlns:android=&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&amp;gt;    &amp;lt;!-- 灰色阴影 --&amp;gt;    &amp;lt;item        an">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> | Su</title>
+  <title>用layer_list实现按钮阴影背景 | Su</title>
   
 
 
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">用layer_list实现按钮阴影背景</h1>
         
 
         <div class="post-meta">
@@ -299,7 +299,9 @@
       
 
       
-        <p>用layer_list实现按钮阴影背景<br><figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure></p>
+        <p>用layer_list实现按钮阴影背景</p>
+<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
+<p>```</p>
 
       
     </div>
@@ -324,8 +326,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/12/15/bugly/" rel="next" title="">
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2017/12/15/Genymotion不能输入中文的问题/" rel="next" title="Genymotion不能输入中文的问题">
+                <i class="fa fa-chevron-left"></i> Genymotion不能输入中文的问题
               </a>
             
           </div>
@@ -334,8 +336,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/12/15/Genymotion不能输入中文的问题/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/12/15/SimpleDateFormat问题/" rel="prev" title="SimpleDateFormat问题">
+                SimpleDateFormat问题 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
