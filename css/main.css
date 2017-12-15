@@ -1945,7 +1945,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e75387;
+  background: #04ff47;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2780,7 +2780,7 @@ img:hover {
   }
 }
 .container .main-inner {
-  width: 80%;
+  width: 960px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2796,7 +2796,7 @@ img:hover {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
