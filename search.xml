@@ -153,23 +153,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[gradlew]]></title>
-      <url>/2017/12/15/gradlew/</url>
-      <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p>
-<p>./gradlew build 检查依赖并编译打包</p>
-<a id="more"></a>
-<p>./gradlew assembleDebug 编译并打Debug包</p>
-<p>./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似</p>
-<p>./gradlew assembleRelease 编译并打Release的包</p>
-<p>./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似</p>
-<p>./gradlew installRelease Release模式打包并安装</p>
-<p>./gradlew uninstallRelease 卸载Release模式包</p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[SimpleDateFormat问题]]></title>
       <url>/2017/12/15/SimpleDateFormat%E9%97%AE%E9%A2%98/</url>
       <content type="html"><![CDATA[<p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br><a id="more"></a></p>
@@ -183,14 +166,16 @@
     
     <entry>
       <title><![CDATA[gradlew]]></title>
-      <url>/2017/12/15/bugly/</url>
-      <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p>
+      <url>/2017/12/15/gradlew/</url>
+      <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p>
+<p>./gradlew build 检查依赖并编译打包</p>
 <a id="more"></a>
-<p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p>./gradlew assembleDebug 编译并打Debug包</p>
+<p>./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似</p>
+<p>./gradlew assembleRelease 编译并打Release的包</p>
+<p>./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似</p>
+<p>./gradlew installRelease Release模式打包并安装</p>
+<p>./gradlew uninstallRelease 卸载Release模式包</p>
 ]]></content>
       
         
@@ -217,12 +202,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
-      <url>/2017/12/15/tomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2/</url>
-      <content type="html"><![CDATA[<p><a href="http://www.xiaoyaoji.cn/doc/TxybXPTdx" target="_blank" rel="noopener">http://www.xiaoyaoji.cn/doc/TxybXPTdx</a></p>
-<h3 id="安装完tomcat后配置环境变量"><a href="#安装完tomcat后配置环境变量" class="headerlink" title="安装完tomcat后配置环境变量"></a>安装完tomcat后配置环境变量</h3><a id="more"></a>
-<p><a href="https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html</a><br>navicat<br><img src="http://upload-images.jianshu.io/upload_images/2997180-b6b1c41672e2c9e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112298649314.png"><br><img src="http://upload-images.jianshu.io/upload_images/2997180-df7f5efc1b77768b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112299554978.png"></p>
-<h3 id="修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后"><a href="#修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后" class="headerlink" title="修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后"></a>修改<code>tomcat/webapps/ROOT/WEB-INF/classes/config.properties</code>之后</h3><h3 id="重启tomcat"><a href="#重启tomcat" class="headerlink" title="重启tomcat"></a>重启tomcat</h3><p>测试<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></p>
+      <title><![CDATA[gradlew]]></title>
+      <url>/2017/12/15/bugly/</url>
+      <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p>
+<a id="more"></a>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 ]]></content>
       
         
@@ -241,6 +229,18 @@
 <p>###登录失败<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">login_button.setVisibility(View.VISIBLE);</span><br><span class="line">							loadingLogin.setVisibility(View.GONE);</span><br><span class="line">							loginIv.clearAnimation();</span><br></pre></td></tr></table></figure></p>
 <p>###R.anim.image_rotate</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  </span><br><span class="line">&lt;!-- android:duration=&quot;@android:integer/config_mediumAnimTime&quot; --&gt;  </span><br><span class="line">&lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;  </span><br><span class="line">    &lt;rotate  </span><br><span class="line">        android:fromDegrees=&quot;0&quot;  </span><br><span class="line">        android:toDegrees=&quot;359&quot;  </span><br><span class="line">        android:duration=&quot;3000&quot;  </span><br><span class="line">        android:repeatCount=&quot;-1&quot; </span><br><span class="line">        android:pivotX=&quot;50%&quot;  </span><br><span class="line">        android:pivotY=&quot;50%&quot; /&gt;  </span><br><span class="line">&lt;/set&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
+      <url>/2017/12/15/tomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.xiaoyaoji.cn/doc/TxybXPTdx" target="_blank" rel="noopener">http://www.xiaoyaoji.cn/doc/TxybXPTdx</a></p>
+<h3 id="安装完tomcat后配置环境变量"><a href="#安装完tomcat后配置环境变量" class="headerlink" title="安装完tomcat后配置环境变量"></a>安装完tomcat后配置环境变量</h3><a id="more"></a>
+<p><a href="https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html</a><br>navicat<br><img src="http://upload-images.jianshu.io/upload_images/2997180-b6b1c41672e2c9e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112298649314.png"><br><img src="http://upload-images.jianshu.io/upload_images/2997180-df7f5efc1b77768b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112299554978.png"></p>
+<h3 id="修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后"><a href="#修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后" class="headerlink" title="修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后"></a>修改<code>tomcat/webapps/ROOT/WEB-INF/classes/config.properties</code>之后</h3><h3 id="重启tomcat"><a href="#重启tomcat" class="headerlink" title="重启tomcat"></a>重启tomcat</h3><p>测试<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></p>
 ]]></content>
       
         
