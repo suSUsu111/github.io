@@ -11,19 +11,14 @@
     <content type="text"><![CDATA[biu~ body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif; font-size: 14px; line-height: 20px; color: #777; background-color: white; } .container { width: 700px; margin-right: auto; margin-left: auto; } .post { font-family: Georgia, "Times New Roman", Times, "SimSun", serif; position: relative; padding: 70px; bottom: 0; overflow-y: auto; font-size: 16px; font-weight: normal; line-height: 25px; color: #515151; } .post h1{ font-size: 50px; font-weight: 500; line-height: 60px; margin-bottom: 40px; color: inherit; } .post p { margin: 0 0 35px 0; } .post img { border: 1px solid #D9D9D9; } .post a { color: #28A1C5; } biu~ 图片发自简书App]]></content>
   </entry>
   <entry>
-    <title><![CDATA[SimpleDateFormat问题]]></title>
-    <url>%2F2017%2F12%2F15%2FSimpleDateFormat%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[在使用SimpleDateFormat时报错： Didn’t find class “android.icu.text.SimpleDateFormat” 解决： 将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat; 原因： The android.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24.]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[gradlew]]></title>
     <url>%2F2017%2F12%2F15%2Fgradlew%2F</url>
     <content type="text"><![CDATA[./gradlew clean 删除HelloWord/app目录下的build文件夹 ./gradlew build 检查依赖并编译打包 ./gradlew assembleDebug 编译并打Debug包 ./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似 ./gradlew assembleRelease 编译并打Release的包 ./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似 ./gradlew installRelease Release模式打包并安装 ./gradlew uninstallRelease 卸载Release模式包]]></content>
   </entry>
   <entry>
-    <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
-    <url>%2F2017%2F12%2F15%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
-    <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>
+    <title><![CDATA[SimpleDateFormat问题]]></title>
+    <url>%2F2017%2F12%2F15%2FSimpleDateFormat%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[在使用SimpleDateFormat时报错： Didn’t find class “android.icu.text.SimpleDateFormat” 解决： 将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat; 原因： The android.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24.]]></content>
   </entry>
   <entry>
     <title><![CDATA[gradlew]]></title>
@@ -34,6 +29,11 @@
     <title><![CDATA[Genymotion不能输入中文的问题]]></title>
     <url>%2F2017%2F12%2F15%2FGenymotion%E4%B8%8D%E8%83%BD%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[下载好必应输入法安装包，拖动到模拟器，安装完成；其他输入法都会出问题；]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
+    <url>%2F2017%2F12%2F15%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
+    <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>
   </entry>
   <entry>
     <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
