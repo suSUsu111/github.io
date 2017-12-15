@@ -606,6 +606,126 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.subowen.top/2017/12/15/SimpleDateFormat问题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="su">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/su.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Su">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/12/15/SimpleDateFormat问题/" itemprop="url">SimpleDateFormat问题</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-15T12:38:38+08:00">
+                2017-12-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br>解决：<br>     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;<br>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.subowen.top/2017/12/15/gradlew/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -733,7 +853,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.subowen.top/2017/12/15/SimpleDateFormat问题/">
+    <link itemprop="mainEntityOfPage" href="http://www.subowen.top/2017/12/15/Android-样式_layer_list/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="su">
@@ -752,7 +872,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/12/15/SimpleDateFormat问题/" itemprop="url">SimpleDateFormat问题</a></h1>
+                <a class="post-title-link" href="/2017/12/15/Android-样式_layer_list/" itemprop="url">用layer_list实现按钮阴影背景</a></h1>
         
 
         <div class="post-meta">
@@ -804,7 +924,9 @@
       
         
           
-            <p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br>解决：<br>     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;<br>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
+            <p>用layer_list实现按钮阴影背景</p>
+<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
+<p>```</p>
 
           
         
@@ -930,128 +1052,6 @@
 <p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.subowen.top/2017/12/15/Android-样式_layer_list/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="su">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/su.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Su">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/15/Android-样式_layer_list/" itemprop="url">用layer_list实现按钮阴影背景</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-15T12:38:38+08:00">
-                2017-12-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>用layer_list实现按钮阴影背景</p>
-<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
-<p>```</p>
 
           
         
@@ -1880,3 +1880,5 @@
 
 </body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
