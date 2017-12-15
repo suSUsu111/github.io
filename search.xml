@@ -153,18 +153,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[SimpleDateFormat问题]]></title>
-      <url>/2017/12/15/SimpleDateFormat%E9%97%AE%E9%A2%98/</url>
-      <content type="html"><![CDATA[<p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br><a id="more"></a></p>
-<p>解决：</p>
-<pre><code>将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;
-</code></pre><p>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[gradlew]]></title>
       <url>/2017/12/15/gradlew/</url>
       <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p>
@@ -182,11 +170,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
-      <url>/2017/12/15/Android-%E6%A0%B7%E5%BC%8F_layer_list/</url>
-      <content type="html"><![CDATA[<p>用layer_list实现按钮阴影背景<br><a id="more"></a></p>
-<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
-<p>```</p>
+      <title><![CDATA[SimpleDateFormat问题]]></title>
+      <url>/2017/12/15/SimpleDateFormat%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br><a id="more"></a></p>
+<p>解决：</p>
+<pre><code>将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;
+</code></pre><p>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
 ]]></content>
       
         
@@ -211,6 +200,17 @@
       <title><![CDATA[Genymotion不能输入中文的问题]]></title>
       <url>/2017/12/15/Genymotion%E4%B8%8D%E8%83%BD%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/</url>
       <content type="html"><![CDATA[<p>下载好必应输入法安装包，拖动到模拟器，安装完成；其他输入法都会出问题；</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
+      <url>/2017/12/15/Android-%E6%A0%B7%E5%BC%8F_layer_list/</url>
+      <content type="html"><![CDATA[<p>用layer_list实现按钮阴影背景<br><a id="more"></a></p>
+<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
+<p>```</p>
 ]]></content>
       
         
