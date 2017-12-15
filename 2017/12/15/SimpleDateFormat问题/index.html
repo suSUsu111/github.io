@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”解决：     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;原因：  The android.icu.text.SimpleDateForma">
+<meta name="description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SimpleDateFormat问题">
 <meta property="og:url" content="http://www.subowen.top/2017/12/15/SimpleDateFormat问题/index.html">
 <meta property="og:site_name" content="Su">
-<meta property="og:description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”解决：     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;原因：  The android.icu.text.SimpleDateForma">
+<meta property="og:description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-15T04:54:53.099Z">
+<meta property="og:updated_time" content="2017-12-15T06:38:28.862Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SimpleDateFormat问题">
-<meta name="twitter:description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”解决：     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;原因：  The android.icu.text.SimpleDateForma">
+<meta name="twitter:description" content="在使用SimpleDateFormat时报错：    Didn’t find class “android.icu.text.SimpleDateFormat”">
 
 
 
@@ -332,7 +332,10 @@
       
 
       
-        <p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br>解决：<br>     将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;<br>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
+        <p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br><a id="more"></a></p>
+<p>解决：</p>
+<pre><code>将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;
+</code></pre><p>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
 
       
     </div>
