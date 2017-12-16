@@ -1,58 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[眼.泪]]></title>
-    <url>%2F2017%2F12%2F15%2F%E7%9C%BC-%E6%B3%AA%2F</url>
-    <content type="text"><![CDATA[眼.泪 body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif; font-size: 14px; line-height: 20px; color: #777; background-color: white; } .container { width: 700px; margin-right: auto; margin-left: auto; } .post { font-family: Georgia, "Times New Roman", Times, "SimSun", serif; position: relative; padding: 70px; bottom: 0; overflow-y: auto; font-size: 16px; font-weight: normal; line-height: 25px; color: #515151; } .post h1{ font-size: 50px; font-weight: 500; line-height: 60px; margin-bottom: 40px; color: inherit; } .post p { margin: 0 0 35px 0; } .post img { border: 1px solid #D9D9D9; } .post a { color: #28A1C5; } 眼.泪 图片发自简书App]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[biu]]></title>
-    <url>%2F2017%2F12%2F15%2Fbiu~%2F</url>
-    <content type="text"><![CDATA[biu~ body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif; font-size: 14px; line-height: 20px; color: #777; background-color: white; } .container { width: 700px; margin-right: auto; margin-left: auto; } .post { font-family: Georgia, "Times New Roman", Times, "SimSun", serif; position: relative; padding: 70px; bottom: 0; overflow-y: auto; font-size: 16px; font-weight: normal; line-height: 25px; color: #515151; } .post h1{ font-size: 50px; font-weight: 500; line-height: 60px; margin-bottom: 40px; color: inherit; } .post p { margin: 0 0 35px 0; } .post img { border: 1px solid #D9D9D9; } .post a { color: #28A1C5; } biu~ 图片发自简书App]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[gradlew]]></title>
-    <url>%2F2017%2F12%2F15%2Fgradlew%2F</url>
-    <content type="text"><![CDATA[./gradlew clean 删除HelloWord/app目录下的build文件夹 ./gradlew build 检查依赖并编译打包 ./gradlew assembleDebug 编译并打Debug包 ./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似 ./gradlew assembleRelease 编译并打Release的包 ./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似 ./gradlew installRelease Release模式打包并安装 ./gradlew uninstallRelease 卸载Release模式包]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[SimpleDateFormat问题]]></title>
-    <url>%2F2017%2F12%2F15%2FSimpleDateFormat%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[在使用SimpleDateFormat时报错： Didn’t find class “android.icu.text.SimpleDateFormat” 解决： 将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat; 原因： The android.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24.]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
-    <url>%2F2017%2F12%2F15%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
-    <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Genymotion不能输入中文的问题]]></title>
-    <url>%2F2017%2F12%2F15%2FGenymotion%E4%B8%8D%E8%83%BD%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[下载好必应输入法安装包，拖动到模拟器，安装完成；其他输入法都会出问题；]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[gradlew]]></title>
-    <url>%2F2017%2F12%2F15%2Fbugly%2F</url>
-    <content type="text"><![CDATA[gradlew assembleRelease//全量打包gradlew buildTinkerPatchRelease//增量打包]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[登录按钮添加登录中动画]]></title>
-    <url>%2F2017%2F12%2F15%2F%E7%99%BB%E5%BD%95%E6%8C%89%E9%92%AE%E6%B7%BB%E5%8A%A0%E7%99%BB%E5%BD%95%E4%B8%AD%E5%8A%A8%E7%94%BB%2F</url>
-    <content type="text"><![CDATA[###布局123456789101112131415161718192021222324252627282930313233343536373839404142434445&lt;FrameLayout android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;@dimen/dp_45&quot; &gt; &lt;Button android:id=&quot;@+id/login_button&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;@dimen/dp_45&quot; android:layout_marginLeft=&quot;@dimen/dp_10&quot; android:layout_marginRight=&quot;@dimen/dp_10&quot; android:background=&quot;@drawable/btn_red&quot; android:onClick=&quot;onClick&quot; android:text=&quot;登录&quot; android:textColor=&quot;@color/white&quot; android:textSize=&quot;@dimen/sp_17&quot; android:visibility=&quot;visible&quot;/&gt; &lt;LinearLayout android:id=&quot;@+id/login_loading_ll&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;@dimen/dp_45&quot; android:layout_marginLeft=&quot;@dimen/dp_10&quot; android:layout_marginRight=&quot;@dimen/dp_10&quot; android:background=&quot;@drawable/btn_red&quot; android:gravity=&quot;center&quot; android:visibility=&quot;gone&quot; &gt; &lt;TextView android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:text=&quot;登录中&quot; android:textColor=&quot;@color/white&quot; android:textSize=&quot;@dimen/sp_17&quot; /&gt; &lt;ImageView android:id=&quot;@+id/login_loading&quot; android:layout_width=&quot;@dimen/dp_20&quot; android:layout_height=&quot;@dimen/dp_20&quot; android:layout_marginLeft=&quot;@dimen/dp_10&quot; android:layout_marginRight=&quot;@dimen/dp_5&quot; android:contentDescription=&quot;@null&quot; android:scaleType=&quot;centerInside&quot; android:src=&quot;@drawable/icon_new_file&quot; /&gt; &lt;/LinearLayout&gt; &lt;/FrameLayout&gt; ###然后代码中 123loadingLogin = (LinearLayout) findViewById(R.id.login_loading_ll); loginIv = (ImageView) findViewById(R.id.login_loading); loginIv.setColorFilter(Color.WHITE); ###动画12Animation operatingAnim = AnimationUtils.loadAnimation(mContext, R.anim.image_rotate); 123login_button.setVisibility(View.GONE); loadingLogin.setVisibility(View.VISIBLE); loginIv.startAnimation(operatingAnim); ###登录失败123login_button.setVisibility(View.VISIBLE); loadingLogin.setVisibility(View.GONE); loginIv.clearAnimation(); ###R.anim.image_rotate 1234567891011&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; &lt;!-- android:duration=&quot;@android:integer/config_mediumAnimTime&quot; --&gt; &lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;rotate android:fromDegrees=&quot;0&quot; android:toDegrees=&quot;359&quot; android:duration=&quot;3000&quot; android:repeatCount=&quot;-1&quot; android:pivotX=&quot;50%&quot; android:pivotY=&quot;50%&quot; /&gt; &lt;/set&gt;]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
-    <url>%2F2017%2F12%2F15%2Ftomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2%2F</url>
-    <content type="text"><![CDATA[http://www.xiaoyaoji.cn/doc/TxybXPTdx 安装完tomcat后配置环境变量 https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.htmlnavicat 修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后重启tomcat测试http://localhost:8080]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[给未签名Apk 签名]]></title>
-    <url>%2F2017%2F12%2F15%2F%E7%BB%99%E6%9C%AA%E7%AD%BE%E5%90%8DApk-%E7%AD%BE%E5%90%8D%2F</url>
-    <content type="text"><![CDATA[###打开cmd : 输入命令行：1jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks -sigalg SHA1withRSA -digestalg SHA1 -signedjar release.apk un_release.apk yuntoo_apk ###解释：1jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks（签名文件路径） -sigalg SHA1withRSA -digestalg SHA1（SHA1摘要） -signedjar release.apk（要生成的已签名apk的路径） un_release.apk（未签名的apk路径） yuntoo_apk（这是签名文件的别名）]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World 测试]]></title>
-    <url>%2F2017%2F12%2F15%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[眼.泪]]></title>
+      <url>/2017/12/15/%E7%9C%BC-%E6%B3%AA/</url>
+      <content type="html"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>眼.泪</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+    
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+    
+      .post p {
+        margin: 0 0 35px 0;
+      }
+    
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+    
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">眼.泪</h1>
+        <div class="show-content">
+          <div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/2997180-49fc6f843ca84b9a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100"><br><div class="image-caption">图片发自简书App</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[biu]]></title>
+      <url>/2017/12/15/biu~/</url>
+      <content type="html"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biu~</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+    
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+    
+      .post p {
+        margin: 0 0 35px 0;
+      }
+    
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+    
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">biu~</h1>
+        <div class="show-content">
+          <div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/2997180-ff9101d1554f12f2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100"><br><div class="image-caption">图片发自简书App</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SimpleDateFormat问题]]></title>
+      <url>/2017/12/15/SimpleDateFormat%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>在使用SimpleDateFormat时报错：<br>    Didn’t find class “android.icu.text.SimpleDateFormat”<br><a id="more"></a></p>
+<p>解决：</p>
+<pre><code>将import android.icu.text.SimpleDateFormat替换为java.text.SimpleDateFormat;
+</code></pre><p>原因：<br>  The <a href="http://lib.csdn.net/base/android" target="_blank" rel="noopener">android</a>.icu.text.SimpleDateFormat is the ICU replacement for java.util.text.SimpleDateFormat;but it’s only available starting from API 24. </p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gradlew]]></title>
+      <url>/2017/12/15/gradlew/</url>
+      <content type="html"><![CDATA[<p>./gradlew clean 删除HelloWord/app目录下的build文件夹</p>
+<p>./gradlew build 检查依赖并编译打包</p>
+<a id="more"></a>
+<p>./gradlew assembleDebug 编译并打Debug包</p>
+<p>./gradlew assemblexiaomiDebug 编译并打xiaomi的debug包，其他类似</p>
+<p>./gradlew assembleRelease 编译并打Release的包</p>
+<p>./gradlew assemblexiaomiRelease 编译并打xiaomi的Release包，其他类似</p>
+<p>./gradlew installRelease Release模式打包并安装</p>
+<p>./gradlew uninstallRelease 卸载Release模式包</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gradlew]]></title>
+      <url>/2017/12/15/bugly/</url>
+      <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p>
+<a id="more"></a>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Genymotion不能输入中文的问题]]></title>
+      <url>/2017/12/15/Genymotion%E4%B8%8D%E8%83%BD%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>下载好必应输入法安装包，拖动到模拟器，安装完成；其他输入法都会出问题；</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
+      <url>/2017/12/15/Android-%E6%A0%B7%E5%BC%8F_layer_list/</url>
+      <content type="html"><![CDATA[<p>用layer_list实现按钮阴影背景<br><a id="more"></a></p>
+<figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure>
+<p>```</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
+      <url>/2017/12/15/tomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.xiaoyaoji.cn/doc/TxybXPTdx" target="_blank" rel="noopener">http://www.xiaoyaoji.cn/doc/TxybXPTdx</a></p>
+<h3 id="安装完tomcat后配置环境变量"><a href="#安装完tomcat后配置环境变量" class="headerlink" title="安装完tomcat后配置环境变量"></a>安装完tomcat后配置环境变量</h3><a id="more"></a>
+<p><a href="https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html</a><br>navicat<br><img src="http://upload-images.jianshu.io/upload_images/2997180-b6b1c41672e2c9e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112298649314.png"><br><img src="http://upload-images.jianshu.io/upload_images/2997180-df7f5efc1b77768b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112299554978.png"></p>
+<h3 id="修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后"><a href="#修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后" class="headerlink" title="修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后"></a>修改<code>tomcat/webapps/ROOT/WEB-INF/classes/config.properties</code>之后</h3><h3 id="重启tomcat"><a href="#重启tomcat" class="headerlink" title="重启tomcat"></a>重启tomcat</h3><p>测试<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[登录按钮添加登录中动画]]></title>
+      <url>/2017/12/15/%E7%99%BB%E5%BD%95%E6%8C%89%E9%92%AE%E6%B7%BB%E5%8A%A0%E7%99%BB%E5%BD%95%E4%B8%AD%E5%8A%A8%E7%94%BB/</url>
+      <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/2997180-c0e4c97deea4e384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>###布局<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">&lt;FrameLayout</span><br><span class="line">                android:layout_width=&quot;match_parent&quot;</span><br><span class="line">                android:layout_height=&quot;@dimen/dp_45&quot; &gt;</span><br><span class="line">    </span><br><span class="line">                &lt;Button</span><br><span class="line">                    android:id=&quot;@+id/login_button&quot;</span><br><span class="line">                    android:layout_width=&quot;match_parent&quot;</span><br><span class="line">                    android:layout_height=&quot;@dimen/dp_45&quot;</span><br><span class="line">                    android:layout_marginLeft=&quot;@dimen/dp_10&quot;</span><br><span class="line">                    android:layout_marginRight=&quot;@dimen/dp_10&quot;</span><br><span class="line">                    android:background=&quot;@drawable/btn_red&quot;</span><br><span class="line">                    android:onClick=&quot;onClick&quot;</span><br><span class="line">                    android:text=&quot;登录&quot;</span><br><span class="line">                    android:textColor=&quot;@color/white&quot;</span><br><span class="line">                    android:textSize=&quot;@dimen/sp_17&quot; </span><br><span class="line">                    android:visibility=&quot;visible&quot;/&gt;</span><br><span class="line">    </span><br><span class="line">                &lt;LinearLayout</span><br><span class="line">                    android:id=&quot;@+id/login_loading_ll&quot;</span><br><span class="line">                    android:layout_width=&quot;match_parent&quot;</span><br><span class="line">                    android:layout_height=&quot;@dimen/dp_45&quot;</span><br><span class="line">                    android:layout_marginLeft=&quot;@dimen/dp_10&quot;</span><br><span class="line">                    android:layout_marginRight=&quot;@dimen/dp_10&quot;</span><br><span class="line">                    android:background=&quot;@drawable/btn_red&quot;</span><br><span class="line">                    android:gravity=&quot;center&quot;</span><br><span class="line">                    android:visibility=&quot;gone&quot; &gt;</span><br><span class="line">    </span><br><span class="line">                    &lt;TextView</span><br><span class="line">                        android:layout_width=&quot;wrap_content&quot;</span><br><span class="line">                        android:layout_height=&quot;wrap_content&quot;</span><br><span class="line">                        android:text=&quot;登录中&quot;</span><br><span class="line">                        android:textColor=&quot;@color/white&quot;</span><br><span class="line">                        android:textSize=&quot;@dimen/sp_17&quot; /&gt;</span><br><span class="line">    </span><br><span class="line">                    &lt;ImageView</span><br><span class="line">                        android:id=&quot;@+id/login_loading&quot;</span><br><span class="line">                        android:layout_width=&quot;@dimen/dp_20&quot;</span><br><span class="line">                        android:layout_height=&quot;@dimen/dp_20&quot;</span><br><span class="line">                        android:layout_marginLeft=&quot;@dimen/dp_10&quot;</span><br><span class="line">                        android:layout_marginRight=&quot;@dimen/dp_5&quot;</span><br><span class="line">                        android:contentDescription=&quot;@null&quot;</span><br><span class="line">                        android:scaleType=&quot;centerInside&quot;</span><br><span class="line">                        android:src=&quot;@drawable/icon_new_file&quot; /&gt;</span><br><span class="line">                &lt;/LinearLayout&gt;</span><br><span class="line">            &lt;/FrameLayout&gt;</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2997180-ec1f5dd8fcbcf30a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>###然后代码中 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">loadingLogin = (LinearLayout) findViewById(R.id.login_loading_ll);</span><br><span class="line">		loginIv = (ImageView) findViewById(R.id.login_loading);</span><br><span class="line">		loginIv.setColorFilter(Color.WHITE);</span><br></pre></td></tr></table></figure>
+<p>###动画<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Animation operatingAnim = AnimationUtils.loadAnimation(mContext,</span><br><span class="line">				R.anim.image_rotate);</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">login_button.setVisibility(View.GONE);</span><br><span class="line">			loadingLogin.setVisibility(View.VISIBLE);</span><br><span class="line">			loginIv.startAnimation(operatingAnim);</span><br></pre></td></tr></table></figure>
+<p>###登录失败<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">login_button.setVisibility(View.VISIBLE);</span><br><span class="line">							loadingLogin.setVisibility(View.GONE);</span><br><span class="line">							loginIv.clearAnimation();</span><br></pre></td></tr></table></figure></p>
+<p>###R.anim.image_rotate</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  </span><br><span class="line">&lt;!-- android:duration=&quot;@android:integer/config_mediumAnimTime&quot; --&gt;  </span><br><span class="line">&lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;  </span><br><span class="line">    &lt;rotate  </span><br><span class="line">        android:fromDegrees=&quot;0&quot;  </span><br><span class="line">        android:toDegrees=&quot;359&quot;  </span><br><span class="line">        android:duration=&quot;3000&quot;  </span><br><span class="line">        android:repeatCount=&quot;-1&quot; </span><br><span class="line">        android:pivotX=&quot;50%&quot;  </span><br><span class="line">        android:pivotY=&quot;50%&quot; /&gt;  </span><br><span class="line">&lt;/set&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[给未签名Apk 签名]]></title>
+      <url>/2017/12/15/%E7%BB%99%E6%9C%AA%E7%AD%BE%E5%90%8DApk-%E7%AD%BE%E5%90%8D/</url>
+      <content type="html"><![CDATA[<p>###打开cmd :   输入命令行：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks -sigalg SHA1withRSA -digestalg SHA1 -signedjar release.apk un_release.apk yuntoo_apk</span><br></pre></td></tr></table></figure></p>
+<p>###解释：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks（签名文件路径） -sigalg SHA1withRSA -digestalg SHA1（SHA1摘要） -signedjar  release.apk（要生成的已签名apk的路径） un_release.apk（未签名的apk路径） yuntoo_apk（这是签名文件的别名）</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World 测试]]></title>
+      <url>/2017/12/15/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
 </search>
