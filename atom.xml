@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.subowen.top/"/>
-  <updated>2017-12-15T05:11:59.510Z</updated>
+  <updated>2017-12-16T00:25:20.063Z</updated>
   <id>http://www.subowen.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给未签名Apk 签名</title>
+    <link href="http://www.subowen.top/2017/12/16/%E7%BB%99%E6%9C%AA%E7%AD%BE%E5%90%8DApk-%E7%AD%BE%E5%90%8D/"/>
+    <id>http://www.subowen.top/2017/12/16/给未签名Apk-签名/</id>
+    <published>2017-12-16T00:23:54.000Z</published>
+    <updated>2017-12-16T00:25:20.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>###打开cmd :   输入命令行：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks -sigalg SHA1withRSA -digestalg SHA1 -signedjar release.apk un_release.apk yuntoo_apk</span><br></pre></td></tr></table></figure></p><p>###解释：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks（签名文件路径） -sigalg SHA1withRSA -digestalg SHA1（SHA1摘要） -signedjar  release.apk（要生成的已签名apk的路径） un_release.apk（未签名的apk路径） yuntoo_apk（这是签名文件的别名）</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###打开cmd :   输入命令行：&lt;br&gt;
+    
+    </summary>
+    
+      <category term="签名" scheme="http://www.subowen.top/categories/%E7%AD%BE%E5%90%8D/"/>
+    
+    
+      <category term="android" scheme="http://www.subowen.top/tags/android/"/>
+    
+  </entry>
   
   <entry>
     <title>眼.泪</title>
@@ -104,24 +126,6 @@
   </entry>
   
   <entry>
-    <title>gradlew</title>
-    <link href="http://www.subowen.top/2017/12/15/bugly/"/>
-    <id>http://www.subowen.top/2017/12/15/bugly/</id>
-    <published>2017-12-15T04:38:38.502Z</published>
-    <updated>2017-12-15T06:37:48.804Z</updated>
-    
-    <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p><a id="more"></a><p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;gradlew assembleRelease//全量打包&lt;br&gt;gradlew buildTinkerPatchRelease//增量打包&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Genymotion不能输入中文的问题</title>
     <link href="http://www.subowen.top/2017/12/15/Genymotion%E4%B8%8D%E8%83%BD%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://www.subowen.top/2017/12/15/Genymotion不能输入中文的问题/</id>
@@ -162,18 +166,17 @@
   </entry>
   
   <entry>
-    <title>tomcat-小幺鸡离线部署</title>
-    <link href="http://www.subowen.top/2017/12/15/tomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
-    <id>http://www.subowen.top/2017/12/15/tomcat-小幺鸡离线部署/</id>
-    <published>2017-12-15T04:38:38.487Z</published>
-    <updated>2017-12-15T06:39:25.185Z</updated>
+    <title>gradlew</title>
+    <link href="http://www.subowen.top/2017/12/15/bugly/"/>
+    <id>http://www.subowen.top/2017/12/15/bugly/</id>
+    <published>2017-12-15T04:38:38.502Z</published>
+    <updated>2017-12-15T06:37:48.804Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="http://www.xiaoyaoji.cn/doc/TxybXPTdx" target="_blank" rel="noopener">http://www.xiaoyaoji.cn/doc/TxybXPTdx</a></p><h3 id="安装完tomcat后配置环境变量"><a href="#安装完tomcat后配置环境变量" class="headerlink" title="安装完tomcat后配置环境变量"></a>安装完tomcat后配置环境变量</h3><a id="more"></a><p><a href="https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html</a><br>navicat<br><img src="http://upload-images.jianshu.io/upload_images/2997180-b6b1c41672e2c9e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112298649314.png"><br><img src="http://upload-images.jianshu.io/upload_images/2997180-df7f5efc1b77768b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112299554978.png"></p><h3 id="修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后"><a href="#修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后" class="headerlink" title="修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后"></a>修改<code>tomcat/webapps/ROOT/WEB-INF/classes/config.properties</code>之后</h3><h3 id="重启tomcat"><a href="#重启tomcat" class="headerlink" title="重启tomcat"></a>重启tomcat</h3><p>测试<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></p>]]></content>
+    <content type="html"><![CDATA[<p>gradlew assembleRelease//全量打包<br>gradlew buildTinkerPatchRelease//增量打包</p><a id="more"></a><p><img src="http://upload-images.jianshu.io/upload_images/2997180-4b70c7a87ccca7c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-c8acf231caf3250f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-e06f2dc34bf6e3cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-2612465dd37418ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/2997180-cc66b51cdccecc87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://www.xiaoyaoji.cn/doc/TxybXPTdx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.xiaoyaoji.cn/doc/TxybXPTdx&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;安装完tomcat后配置环境变量&quot;&gt;&lt;a href=&quot;#安装完tomcat后配置环境变量&quot; class=&quot;headerlink&quot; title=&quot;安装完tomcat后配置环境变量&quot;&gt;&lt;/a&gt;安装完tomcat后配置环境变量&lt;/h3&gt;
+      &lt;p&gt;gradlew assembleRelease//全量打包&lt;br&gt;gradlew buildTinkerPatchRelease//增量打包&lt;/p&gt;
     
     </summary>
     
@@ -200,17 +203,18 @@
   </entry>
   
   <entry>
-    <title>给未签名Apk 签名</title>
-    <link href="http://www.subowen.top/2017/12/15/%E7%BB%99%E6%9C%AA%E7%AD%BE%E5%90%8DApk-%E7%AD%BE%E5%90%8D/"/>
-    <id>http://www.subowen.top/2017/12/15/给未签名Apk-签名/</id>
-    <published>2017-12-15T03:58:05.574Z</published>
-    <updated>2017-12-15T06:39:43.708Z</updated>
+    <title>tomcat-小幺鸡离线部署</title>
+    <link href="http://www.subowen.top/2017/12/15/tomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
+    <id>http://www.subowen.top/2017/12/15/tomcat-小幺鸡离线部署/</id>
+    <published>2017-12-15T04:38:38.487Z</published>
+    <updated>2017-12-15T06:39:25.185Z</updated>
     
-    <content type="html"><![CDATA[<p>###打开cmd :   输入命令行：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks -sigalg SHA1withRSA -digestalg SHA1 -signedjar release.apk un_release.apk yuntoo_apk</span><br></pre></td></tr></table></figure></p><p>###解释：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore C:\Users\Administrator\Desktop\yuntooapk.jks（签名文件路径） -sigalg SHA1withRSA -digestalg SHA1（SHA1摘要） -signedjar  release.apk（要生成的已签名apk的路径） un_release.apk（未签名的apk路径） yuntoo_apk（这是签名文件的别名）</span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="http://www.xiaoyaoji.cn/doc/TxybXPTdx" target="_blank" rel="noopener">http://www.xiaoyaoji.cn/doc/TxybXPTdx</a></p><h3 id="安装完tomcat后配置环境变量"><a href="#安装完tomcat后配置环境变量" class="headerlink" title="安装完tomcat后配置环境变量"></a>安装完tomcat后配置环境变量</h3><a id="more"></a><p><a href="https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html</a><br>navicat<br><img src="http://upload-images.jianshu.io/upload_images/2997180-b6b1c41672e2c9e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112298649314.png"><br><img src="http://upload-images.jianshu.io/upload_images/2997180-df7f5efc1b77768b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="企业微信截图_15112299554978.png"></p><h3 id="修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后"><a href="#修改tomcat-webapps-ROOT-WEB-INF-classes-config-properties之后" class="headerlink" title="修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后"></a>修改<code>tomcat/webapps/ROOT/WEB-INF/classes/config.properties</code>之后</h3><h3 id="重启tomcat"><a href="#重启tomcat" class="headerlink" title="重启tomcat"></a>重启tomcat</h3><p>测试<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;###打开cmd :   输入命令行：&lt;br&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.xiaoyaoji.cn/doc/TxybXPTdx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.xiaoyaoji.cn/doc/TxybXPTdx&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装完tomcat后配置环境变量&quot;&gt;&lt;a href=&quot;#安装完tomcat后配置环境变量&quot; class=&quot;headerlink&quot; title=&quot;安装完tomcat后配置环境变量&quot;&gt;&lt;/a&gt;安装完tomcat后配置环境变量&lt;/h3&gt;
     
     </summary>
     
