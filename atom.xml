@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.subowen.top/"/>
-  <updated>2017-12-19T01:36:37.728Z</updated>
+  <updated>2017-12-19T01:39:21.142Z</updated>
   <id>http://www.subowen.top/</id>
   
   <author>
@@ -21,42 +21,17 @@
     <link href="http://www.subowen.top/2017/12/19/%E7%AD%BE%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%9F%A5%E7%9C%8Bsha1%EF%BC%88android-studio%EF%BC%89/"/>
     <id>http://www.subowen.top/2017/12/19/签名以及查看sha1（android-studio）/</id>
     <published>2017-12-19T01:35:43.000Z</published>
-    <updated>2017-12-19T01:36:37.728Z</updated>
+    <updated>2017-12-19T01:39:21.142Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="首先配置好签名信息"><a href="#首先配置好签名信息" class="headerlink" title="首先配置好签名信息"></a>首先配置好签名信息</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\1513646428.png" alt="1513646428"></p><h3 id="配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport"><a href="#配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport" class="headerlink" title="配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport"></a>配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_15136467116916.png" alt="企业微信截图_15136467116916"></p><h3 id="得到debug和release版的签名信息"><a href="#得到debug和release版的签名信息" class="headerlink" title="得到debug和release版的签名信息"></a>得到debug和release版的签名信息</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_1513647239842.png" alt="企业微信截图_1513647239842"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="首先配置好签名信息"><a href="#首先配置好签名信息" class="headerlink" title="首先配置好签名信息"></a>首先配置好签名信息</h3><a id="more"></a><p><img src="C:\Users\adroid\AppData\Local\Temp\1513646428.png" alt="1513646428"></p><h3 id="配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport"><a href="#配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport" class="headerlink" title="配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport"></a>配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_15136467116916.png" alt="企业微信截图_15136467116916"></p><h3 id="得到debug和release版的签名信息"><a href="#得到debug和release版的签名信息" class="headerlink" title="得到debug和release版的签名信息"></a>得到debug和release版的签名信息</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_1513647239842.png" alt="企业微信截图_1513647239842"></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;首先配置好签名信息&quot;&gt;&lt;a href=&quot;#首先配置好签名信息&quot; class=&quot;headerlink&quot; title=&quot;首先配置好签名信息&quot;&gt;&lt;/a&gt;首先配置好签名信息&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;C:\Users\adroid\AppData\Local\Te
-      
+      &lt;h3 id=&quot;首先配置好签名信息&quot;&gt;&lt;a href=&quot;#首先配置好签名信息&quot; class=&quot;headerlink&quot; title=&quot;首先配置好签名信息&quot;&gt;&lt;/a&gt;首先配置好签名信息&lt;/h3&gt;
     
     </summary>
     
       <category term="签名" scheme="http://www.subowen.top/categories/%E7%AD%BE%E5%90%8D/"/>
-    
-    
-      <category term="android" scheme="http://www.subowen.top/tags/android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用layer_list实现按钮阴影背景</title>
-    <link href="http://www.subowen.top/2017/12/16/Android-%E6%A0%B7%E5%BC%8F_layer_list/"/>
-    <id>http://www.subowen.top/2017/12/16/Android-样式_layer_list/</id>
-    <published>2017-12-16T00:28:30.000Z</published>
-    <updated>2017-12-16T00:33:01.344Z</updated>
-    
-    <content type="html"><![CDATA[<p>用layer_list实现按钮阴影背景<br><a id="more"></a></p><figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure><p>```</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用layer_list实现按钮阴影背景&lt;br&gt;
-    
-    </summary>
-    
-      <category term="view" scheme="http://www.subowen.top/categories/view/"/>
     
     
       <category term="android" scheme="http://www.subowen.top/tags/android/"/>
@@ -83,6 +58,28 @@
     
     
       <category term="tomcat" scheme="http://www.subowen.top/tags/tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用layer_list实现按钮阴影背景</title>
+    <link href="http://www.subowen.top/2017/12/16/Android-%E6%A0%B7%E5%BC%8F_layer_list/"/>
+    <id>http://www.subowen.top/2017/12/16/Android-样式_layer_list/</id>
+    <published>2017-12-16T00:28:30.000Z</published>
+    <updated>2017-12-16T00:33:01.344Z</updated>
+    
+    <content type="html"><![CDATA[<p>用layer_list实现按钮阴影背景<br><a id="more"></a></p><figure class="highlight plain"><figcaption><span>version</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;</span><br><span class="line">    &lt;!-- 灰色阴影 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:left=&quot;2dp&quot;</span><br><span class="line">        android:top=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ff999999&quot; /&gt;</span><br><span class="line">            &lt;!--渐变--&gt;</span><br><span class="line">            &lt;!--&lt;gradient--&gt;</span><br><span class="line">                &lt;!--android:angle=&quot;0&quot;--&gt;</span><br><span class="line">                &lt;!--android:endColor=&quot;#ff999999&quot;--&gt;</span><br><span class="line">                &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">    &lt;!-- 白色前景 --&gt;</span><br><span class="line">    &lt;item</span><br><span class="line">        android:bottom=&quot;2dp&quot;</span><br><span class="line">        android:right=&quot;2dp&quot;&gt;</span><br><span class="line">        &lt;shape&gt;</span><br><span class="line">            &lt;solid android:color=&quot;#ffff9a41&quot; /&gt;</span><br><span class="line">            &lt;corners android:radius=&quot;5dp&quot; /&gt;</span><br><span class="line">        &lt;/shape&gt;</span><br><span class="line">    &lt;/item&gt;</span><br><span class="line">&lt;/layer-list&gt;</span><br></pre></td></tr></table></figure><p>```</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用layer_list实现按钮阴影背景&lt;br&gt;
+    
+    </summary>
+    
+      <category term="view" scheme="http://www.subowen.top/categories/view/"/>
+    
+    
+      <category term="android" scheme="http://www.subowen.top/tags/android/"/>
     
   </entry>
   

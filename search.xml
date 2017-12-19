@@ -12,17 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
-    <url>%2F2017%2F12%2F16%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
-    <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>
-      <categories>
-        <category>view</category>
-      </categories>
-      <tags>
-        <tag>android</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[tomcat-小幺鸡离线部署]]></title>
     <url>%2F2017%2F12%2F16%2Ftomcat-%E5%B0%8F%E5%B9%BA%E9%B8%A1%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2%2F</url>
     <content type="text"><![CDATA[http://www.xiaoyaoji.cn/doc/TxybXPTdx 安装完tomcat后配置环境变量 https://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.htmlnavicat 修改tomcat/webapps/ROOT/WEB-INF/classes/config.properties之后重启tomcat测试http://localhost:8080]]></content>
@@ -31,6 +20,17 @@
       </categories>
       <tags>
         <tag>tomcat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
+    <url>%2F2017%2F12%2F16%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
+    <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>
+      <categories>
+        <category>view</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
       </tags>
   </entry>
   <entry>
