@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[签名以及查看sha1（android studio）]]></title>
+    <url>%2F2017%2F12%2F19%2F%E7%AD%BE%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%9F%A5%E7%9C%8Bsha1%EF%BC%88android-studio%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[首先配置好签名信息 配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport 得到debug和release版的签名信息]]></content>
+      <categories>
+        <category>签名</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[用layer_list实现按钮阴影背景]]></title>
     <url>%2F2017%2F12%2F16%2FAndroid-%E6%A0%B7%E5%BC%8F_layer_list%2F</url>
     <content type="text"><![CDATA[用layer_list实现按钮阴影背景 version12345678910111213141516171819202122232425&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt; &lt;!-- 灰色阴影 --&gt; &lt;item android:left=&quot;2dp&quot; android:top=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ff999999&quot; /&gt; &lt;!--渐变--&gt; &lt;!--&lt;gradient--&gt; &lt;!--android:angle=&quot;0&quot;--&gt; &lt;!--android:endColor=&quot;#ff999999&quot;--&gt; &lt;!--android:startColor=&quot;#ffebebeb&quot; /&gt;--&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt; &lt;!-- 白色前景 --&gt; &lt;item android:bottom=&quot;2dp&quot; android:right=&quot;2dp&quot;&gt; &lt;shape&gt; &lt;solid android:color=&quot;#ffff9a41&quot; /&gt; &lt;corners android:radius=&quot;5dp&quot; /&gt; &lt;/shape&gt; &lt;/item&gt;&lt;/layer-list&gt; ```]]></content>

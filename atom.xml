@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.subowen.top/"/>
-  <updated>2017-12-16T00:33:01.344Z</updated>
+  <updated>2017-12-19T01:36:37.728Z</updated>
   <id>http://www.subowen.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>签名以及查看sha1（android studio）</title>
+    <link href="http://www.subowen.top/2017/12/19/%E7%AD%BE%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%9F%A5%E7%9C%8Bsha1%EF%BC%88android-studio%EF%BC%89/"/>
+    <id>http://www.subowen.top/2017/12/19/签名以及查看sha1（android-studio）/</id>
+    <published>2017-12-19T01:35:43.000Z</published>
+    <updated>2017-12-19T01:36:37.728Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="首先配置好签名信息"><a href="#首先配置好签名信息" class="headerlink" title="首先配置好签名信息"></a>首先配置好签名信息</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\1513646428.png" alt="1513646428"></p><h3 id="配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport"><a href="#配置好之后-打开右侧gradle——-gt-app——-gt-Tasks——-gt-android——-gt-signingReport" class="headerlink" title="配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport"></a>配置好之后 打开右侧gradle——&gt;:app——&gt;Tasks——&gt;android——&gt;signingReport</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_15136467116916.png" alt="企业微信截图_15136467116916"></p><h3 id="得到debug和release版的签名信息"><a href="#得到debug和release版的签名信息" class="headerlink" title="得到debug和release版的签名信息"></a>得到debug和release版的签名信息</h3><p><img src="C:\Users\adroid\AppData\Local\Temp\企业微信截图_1513647239842.png" alt="企业微信截图_1513647239842"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;首先配置好签名信息&quot;&gt;&lt;a href=&quot;#首先配置好签名信息&quot; class=&quot;headerlink&quot; title=&quot;首先配置好签名信息&quot;&gt;&lt;/a&gt;首先配置好签名信息&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;C:\Users\adroid\AppData\Local\Te
+      
+    
+    </summary>
+    
+      <category term="签名" scheme="http://www.subowen.top/categories/%E7%AD%BE%E5%90%8D/"/>
+    
+    
+      <category term="android" scheme="http://www.subowen.top/tags/android/"/>
+    
+  </entry>
   
   <entry>
     <title>用layer_list实现按钮阴影背景</title>
